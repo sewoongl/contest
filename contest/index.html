@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> hi </title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
+    <style>
+        html, body {margin: 0; padding: 0}
+        container{height: 100%; width: 100%;}
+        #outer{
+            width: 500px;
+            height: 500px;
+            top: 50%;
+            left: 50%;
+            margin-left: -250px;
+            margin-top: -250px;
+            position: absolute;   
+            display: inline-block;
+            text-align: center;
+            background-color: aqua;
+        }
+        #welcome_top{
+            width: 100%;
+            height: 100px;
+            background-color: aquamarine;
+            
+        }
+        #welcome_top h1{
+            margin: 0; 
+            padding: 0;
+        }
+        .all_input{
+            margin-top: 25px;
+        }
+        #welcome_contents{
+            width: 100%;
+            height: 275px;
+        }
+        #welcome_btn{
+            margin-top: 40px;
+        }
+        #weclome_bottom{
+            width: 100%;
+            height: 100px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <container>
+        <div id="outer">
+            <div id="welcome_top"><h1>어서와</h1></div>
+            <div id="welcome_contents">
+                <form>
+                    <div id="login_info">
+                        <input class="form-control all_input" type="" href="#" placeholder="아이디를 입력하세요">
+                        <input class="form-control all_input" type="" href="#" placeholder="비밀번호를 입력하세요"> 
+                    </div>
+                    <div id="welcome_btn">
+                        <input id="login_btn" class="btn btn-info all_input form-control" type="submit" value="로그인">
+                        <input id="join_btn" class="btn btn-default all_input form-control" type="button" value="가입">
+                    </div>
+                </form>
+            </div>
+            <div id="weclome_bottom"></div >
+        </div>
+    </container>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
