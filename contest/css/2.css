@@ -1,0 +1,18 @@
+#check{
+    margin-left: calc(50% - 100px);            
+    background-color: aqua;
+}
+#record{
+    margin-left: calc(50% - 100px);
+    background-color: green;
+}
+#manager{
+    float: left;
+    margin-left: calc(25%);
+    background-color: antiquewhite;
+}
+#family{
+    float: right;
+    margin-right: calc(25%);
+    background-color: blueviolet
+}
